@@ -1,11 +1,13 @@
 
 Описание:
+
 Проект генератора текстовых отчетов. Данные для отчета подаются в виде TAB-delimited файла.
 Настройки таблицы отчета подаются в виде XML файла. Результатом работы программы является файл Report.txt.
 
 Запуск:
 
 Скомпилировать проект командой mvn clean package
+
 Запустить проект командой java -jar /target/com.brykova.generator-1.0-SNAPSHOT-jar-with-dependencies.jar source-data.tsv settings.xml
 
 Комментарии:
